@@ -1,3 +1,5 @@
-console.log('第一次提交，添加日志');
-console.log('第二次提交，想合并到主分枝');
-console.log('居然忘了写commit');
+const commonjsName = require('./commonjs')
+commonjsName.name = '我想改名！！'
+console.log(commonjsName, 'name');
+const rename = require('./commonjs')
+console.log(rename, 'rename');
